@@ -5,7 +5,9 @@
     <title>Flask Template Tutorial</title>
   </head>
   <body>
+    <!-- If you want to extend a template in a html file, you have to extend it as follows.-->
     {% extends "template.html" %}
+    <!-- then whatever you want to write in page extending the template, you can write in block content. Don't forget the end block tag --> 
     {% block content %}
     
     <h1> We are using templates in flask.</h1>
